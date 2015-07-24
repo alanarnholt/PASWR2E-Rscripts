@@ -4,6 +4,21 @@
 
 R scripts for the book [*Probability and Statistics with R, Second Edition*](http://alanarnholt.github.io/PASWR2E-Book/)
 
+### Downloading Chapter Scripts
+
+* Click on the ChapterScripts directory
+* Select the desired chapter
+* Click the **Raw** button (top right)
+* In your web browser, click **Edit > Select All** then **Edit > Copy**
+* Paste the results in a blank R script OR
+* Copy the url and use `download.file()` (example below)
+
+```
+# Downloading Chapter One Script
+site <- "https://raw.githubusercontent.com/alanarnholt/PASWR2E-Rscripts/master/ChapterScripts/chapter01.R"
+download.file(url = site, destfile = "chapter01.R")
+```
+
 ### Quick Links 
 
 * R package [PASWR2](http://alanarnholt.github.io/PASWR2/) supports the text
