@@ -4,6 +4,15 @@
 
 R scripts for the book [*Probability and Statistics with R, Second Edition*](http://alanarnholt.github.io/PASWR2E-Book/)
 
+### Quick Links 
+
+* R package [PASWR2](http://alanarnholt.github.io/PASWR2/) supports the text
+* [Odd answers](http://alanarnholt.github.io/PASWR2E-Book/PASWR2EMODDforWEB.pdf)
+* [Homework Examples](https://github.com/alanarnholt/Homework-Examples)
+
+
+
+
 ### Downloading Chapter Scripts
 
 * Click on the ChapterScripts directory
@@ -18,11 +27,4 @@ R scripts for the book [*Probability and Statistics with R, Second Edition*](htt
 site <- "https://raw.githubusercontent.com/alanarnholt/PASWR2E-Rscripts/master/ChapterScripts/chapter01.R"
 download.file(url = site, destfile = "chapter01.R")
 ```
-
-### Quick Links 
-
-* R package [PASWR2](http://alanarnholt.github.io/PASWR2/) supports the text
-* [Odd answers](http://alanarnholt.github.io/PASWR2E-Book/PASWR2EMODDforWEB.pdf)
-* [Homework Examples](https://github.com/alanarnholt/Homework-Examples)
-
 
