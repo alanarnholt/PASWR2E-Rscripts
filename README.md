@@ -4,6 +4,10 @@
 
 R scripts for the book [*Probability and Statistics with R, Second Edition*](http://alanarnholt.github.io/PASWR2E-Book/)
 
-* The R package [PASWR2](http://alanarnholt.github.io/PASWR2/) supports the text.
+## Quick Links 
+
+* R package [PASWR2](http://alanarnholt.github.io/PASWR2/) supports the text
+* [Odd answers](http://alanarnholt.github.io/PASWR2E-Book/PASWR2EMODDforWEB.pdf)
+* [Homework Examples](https://github.com/alanarnholt/Homework-Examples)
 
 
