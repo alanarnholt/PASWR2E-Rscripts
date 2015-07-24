@@ -996,13 +996,6 @@ xtabs(~treatment + doctor, data = EPIDURAL)
 stripplot(treatment~BMI|doctor, jitter=TRUE, data=EPIDURAL, as.table=TRUE)
 
 
-############################## 2.9.3 Arranging Several Lattice ....  ###########################
-
-print(latticegraph, split=c(column, row, number_of_columns,
-                            number_of_rows), more=TRUE/FALSE)
-
-print(latticegraph, position=c(x_LL, y_LL, x_UR, y_UR), more=TRUE/FALSE)
-
 ############################## Example 2.40     ###########################
 
 ############################## R Code  2.52     ###########################
@@ -1274,14 +1267,8 @@ p2                                        # right scatterplots
 theme_set(previous_theme)                 # restore original theme
 
 
-############################## 2.9.5.3 Adding a Smoothed Line   ########################### 
-
-function (mapping = NULL, data = NULL, geom = "smooth",
-          position = "identity", method = "auto", formula = y ~ x,
-          se = TRUE, n = 80, fullrange = FALSE, level = 0.95,
-          na.rm = FALSE, ...)
   
-  ############################# R Code 2.70   ########################### 
+############################# R Code 2.70   ########################### 
 
 previous_theme <- theme_set(theme_bw())     # set black-and-white theme
 EPIDURALF$BMI <- EPIDURALF$kg/(EPIDURALF$cm/100)^2    # create BMI 
@@ -1389,8 +1376,7 @@ p <- ggplot(data = MERGED, aes(x = long, y = lat, group = group,
 p +  geom_polygon(color = "black") + 
   theme_bw() +
   coord_map("polyconic") + 
-  scale_fill_gradient2() +
-  theme(text = element_text(family = "CM Roman"))
+  scale_fill_gradient2() 
 
 
 ############################# R Code 2.76   ########################### 
