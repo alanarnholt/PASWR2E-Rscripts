@@ -1,6 +1,7 @@
 ################### Chapter 03 Script
 ################### 7/24/15 V.1 
 library(PASWR2)
+library(MASS)
 #################### Example 3.3 ##################
 
 factorial(4)/factorial(4-3)  

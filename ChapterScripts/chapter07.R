@@ -185,6 +185,7 @@ ES2 <- optimize(f = loglikesig2, interval = c(0.5, 2.5),
                 maximum = TRUE)$maximum
 ES2
 
+########################### R Code 7.9 ##########################
 ########################### Figure 7.7 ##########################
 
 p <- ggplot(data.frame(x = c(2, 6.05)), aes(x = x))

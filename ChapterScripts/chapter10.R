@@ -1,6 +1,11 @@
 ################### Chapter 10 Script
 ################### 7/24/15 V.1
-library(PASWR2) 
+library(PASWR2)
+library(MASS)
+library(coin)
+library(nortest)
+library(boot)
+library(gridExtra)
 ##################### Chapter 10 ##################################
 
 ##################### Figure 10.1 #################################

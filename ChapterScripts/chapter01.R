@@ -1,6 +1,9 @@
 ################### Chapter 01 Script
 ################### 7/23/15 V.1
 library(PASWR2)
+library(xlsx)
+library(MASS)
+library(repmis)
 ################### R code 1.1
 
 options(width = 70)           # set width of console output
