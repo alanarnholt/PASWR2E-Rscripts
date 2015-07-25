@@ -9,7 +9,7 @@ R scripts for the book [*Probability and Statistics with R, Second Edition*](htt
 * R package [PASWR2](https://github.com/alanarnholt/PASWR2) supports the text
 * [Odd answers](http://alanarnholt.github.io/PASWR2E-Book/PASWR2EMODDforWEB.pdf)
 * [Homework Examples](https://github.com/alanarnholt/Homework-Examples)
-* [Cloning Repo Video](https://github.com)
+* [Cloning Repo Video](https://github.com)/[Cloning Repo Slides](https://github.com/alanarnholt/Homework-Examples/blob/master/Slides/ForkCloneRStudio.pdf)
 
 ### Downloading Chapter Scripts
 
