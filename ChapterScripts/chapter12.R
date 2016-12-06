@@ -419,25 +419,25 @@ p1 <- ggplot(data = mod1f, aes(x = .fitted, y = .resid))
 P1 <- p1 + geom_point() + 
   theme_bw() + 
   labs(x = "Fitted Values (\\type{mod1})", y = "Residuals", title = "Constant Variance") + 
-  geom_hline(y = 0, lty = "dashed")
+  geom_hline(yintercept = 0, lty = "dashed")
 #
 p2 <- ggplot(data = mod2f, aes(x = .fitted, y = .resid)) 
 P2 <- p2 + geom_point() + 
   theme_bw() + 
   labs(x = "Fitted Values (\\type{mod2})", y = "Residuals", title = "Increasing Variance") + 
-  geom_hline(y = 0, lty = "dashed")
+  geom_hline(yintercept = 0, lty = "dashed")
 #
 p3 <- ggplot(data = mod3f, aes(x = .fitted, y = .resid)) 
 P3 <- p3 + geom_point() + 
   theme_bw() + 
   labs(x = "Fitted Values (\\type{mod3})", y = "Residuals", title = "Decreasing Variance") + 
-  geom_hline(y = 0, lty = "dashed")
+  geom_hline(yintercept = 0, lty = "dashed")
 #
 p4 <- ggplot(data = mod4f, aes(x = .fitted, y = .resid)) 
 P4 <- p4 + geom_point() + 
   theme_bw() + 
   labs(x = "Fitted Values (\\type{mod4})", y = "Residuals", title = "Non-Linear Relationship") + 
-  geom_hline(y = 0, lty = "dashed")
+  geom_hline(yintercept = 0, lty = "dashed")
 ########
 ### arrange all 4 ggplots in one device
 library(gridExtra)
@@ -471,7 +471,7 @@ head(fmod, n = 3)
 ################################ R Code 12.26 ###################################
 
 p <- ggplot(data = fmod, aes(x = .fitted, y = .stdresid))
-p + geom_point() + geom_hline(y = 0, lty = "dashed") + 
+p + geom_point() + geom_hline(yintercept = 0, lty = "dashed") + 
   labs(x = "Fitted Values", y = "Standardized Residuals") +
   theme_bw()
 
